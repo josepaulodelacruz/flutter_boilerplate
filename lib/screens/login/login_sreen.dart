@@ -22,10 +22,6 @@ class _LoginScreenState extends State<LoginScreen> {
           }
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () => context.read<CounterCubit>().increment(),
-        child: const Icon(Icons.add),
-      ),
     );
   }
 }

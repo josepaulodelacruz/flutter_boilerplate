@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_boilerplate/config/theme.dart';
+import 'package:flutter_boilerplate/flavor_config.dart';
 import 'package:flutter_boilerplate/on_router.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_boilerplate/bloc/export_blocs.dart';
 
-void main() {
+void setupApp() {
   runApp(const MyApp());
 }
 
@@ -31,7 +32,7 @@ class _MyAppState extends State<MyApp> {
         )
       ],
       child: MaterialApp.router(
-        title: "Flutter boilerplate project",
+        title: '${FlavorConfig.instance.values.appName}',
         theme: createTheme(context),
         routerConfig: onRouter,
       ),
