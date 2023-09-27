@@ -32,7 +32,7 @@ class _MyAppState extends State<MyApp> {
         )
       ],
       child: MaterialApp.router(
-        title: '${FlavorConfig.instance.values.appName}',
+        title: FlavorConfig.instance.values.appName,
         theme: createTheme(context),
         routerConfig: onRouter,
       ),
