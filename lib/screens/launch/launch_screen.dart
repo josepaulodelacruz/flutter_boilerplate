@@ -13,7 +13,7 @@ class LaunchScreen extends StatelessWidget {
         children: [
           Flexible(
             flex: 3,
-            child: Container(
+            child: SizedBox(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
