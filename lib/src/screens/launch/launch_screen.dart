@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/common/size_config.dart';
-import 'package:flutter_boilerplate/widgets/widgets_exports.dart';
 import 'package:go_router/go_router.dart';
+import 'package:flutter_boilerplate/src/utils/size_config.dart';
+import 'package:flutter_boilerplate/src/widgets/export_widgets.dart';
 
 class LaunchScreen extends StatelessWidget {
   const LaunchScreen({super.key});

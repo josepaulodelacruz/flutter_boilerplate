@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_boilerplate/bloc/counter-cubit.dart';
+import 'package:flutter_boilerplate/src/bloc/counter-cubit.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
