@@ -13,15 +13,19 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: BlocBuilder<CounterCubit, int>(
-          builder: (context, state) {
-            return Text(
-              'Counter value: ${state}',
-            );
-          }
+      appBar: AppBar(),
+      body: Hero(
+        tag: 'login',
+        child: Material(
+          child: Container(
+            child: Center(
+              child: Text(
+                'Center',
+              ),
+            )
+          ),
         ),
-      ),
+      )
     );
   }
 }
